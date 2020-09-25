@@ -1,0 +1,1 @@
+# flutterfire_auth_foundation
