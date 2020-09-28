@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterfire_auth_foundation/home.dart';
+import 'package:flutterfire_auth_foundation/sigin_page.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'FlutterFire Auth Foundation',
       theme: ThemeData(
       
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
        
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage()
+      home: SigninPage()
     );
   }
 }
